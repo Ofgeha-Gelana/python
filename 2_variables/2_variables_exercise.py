@@ -1,0 +1,117 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "99f23b6a-405f-46d1-a22d-64e341067f37",
+   "metadata": {},
+   "source": [
+    "1. Create a variable called break and assign it a value 5. See what happens and find out the reason behind the behavior that you see.\n",
+    "2. Create two variables. One to store your birth year and another one to store current year. Now calculate your age using these two variables\n",
+    "3. Store your first, middle and last name in three different variables and then print your full name using these variables\n",
+    "4. Answer which of these are invalid variable names: _nation 1record record1 record_one record-one record^one continue"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "06c2b863-9e05-4af5-8af4-2470a78594ec",
+   "metadata": {
+    "scrolled": true
+   },
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (1845057549.py, line 3)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;36m  Cell \u001b[1;32mIn[4], line 3\u001b[1;36m\u001b[0m\n\u001b[1;33m    break = 5\u001b[0m\n\u001b[1;37m          ^\u001b[0m\n\u001b[1;31mSyntaxError\u001b[0m\u001b[1;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 1 ANSWER\n",
+    "\n",
+    "break = 5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "7ea11353-0f55-4312-98f9-d6872b8ebcd3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "26\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 2 ANSWER\n",
+    "\n",
+    "birth_year = 1998\n",
+    "current_year = 2024\n",
+    "age = current_year - birth_year\n",
+    "print(age)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "9d828d0d-03d5-41e6-83c6-9a966ab0f752",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Ofgeha Gelana Werkineh\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 3 ANSWER\n",
+    "\n",
+    "first_name = \"Ofgeha\"\n",
+    "middle_name = \"Gelana\"\n",
+    "last_name = \"Werkineh\"\n",
+    "print(first_name, middle_name, last_name)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "db432472-3031-4760-9c62-2df802e6dcf4",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# 4 ANSWER\n",
+    "\n",
+    "# 1record, record-one, record\n"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.11.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
