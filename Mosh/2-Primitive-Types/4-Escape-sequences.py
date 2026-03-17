@@ -1,3 +1,11 @@
+# \"
+# \'
+# \\
+# \n
+
+
+
+
 course = "Python Programming"
 
 # What if we want to add double quoetes between 
